@@ -60,4 +60,4 @@ Some examples:
 
 Pre-commit also supports the creation of custom hooks, there's a lot to it, but might be valuable for very specific use cases: https://pre-commit.com/#new-hooks
 
-The official (pre-commit demo repo)[https://github.com/pre-commit/demo-repo] has
+The official pre-commit demo repo, https://github.com/pre-commit/demo-repo, has another example showing more pre-commit hooks.
