@@ -1,6 +1,26 @@
 # pre-commit-demo
 Demo repository showing the use of pre-commit, a flexible tool for specifying git hooks.
 
+# tl;dr;
+Just want to see how this works? Ok, the prerequisite is that you have `conda` installed.
+```
+git clone https://github.com/lincc-frameworks/pre-commit-demo.git
+conda create --name pre-commit-demo python=3.10 --file requirements.txt
+conda activate pre-commit-demo
+pre-commit install
+```
+
+Open `.../pre-commit-demo/hello_world.py`. 
+
+Add two blank lines at the end of the file.
+
+```
+git commit -m 'Feeling cute, added some blank lines.'
+```
+
+Witness the automatic removal of the blank lines so that the commit adheres to the linting standards.
+
+# The Details
 
 ## Setup
 Clone the repository and then create a sandbox environment like so:
